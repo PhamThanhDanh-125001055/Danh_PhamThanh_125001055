@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd5b5" />
+      <stop offset="100%" stop-color="#f5be9b" />
+    </linearGradient>
+    <linearGradient id="hoodieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+    <filter id="avatarShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background Circle with Gradient -->
+  <circle cx="200" cy="200" r="190" fill="url(#bgGrad)"/>
+  
+  <!-- Outer Glow Ring -->
+  <circle cx="200" cy="200" r="175" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="4" stroke-dasharray="10 15"/>
+  <circle cx="200" cy="200" r="185" fill="none" stroke="url(#glowGrad)" stroke-width="2"/>
+
+  <!-- Developer Silhouette / Character -->
+  <g filter="url(#avatarShadow)">
+    <!-- Hoodie Body -->
+    <path d="M100 370 C100 290 140 260 200 260 C260 260 300 290 300 370 Z" fill="url(#hoodieGrad)"/>
+    <!-- Collar Detail -->
+    <path d="M165 260 L200 300 L235 260 Z" fill="#4338ca"/>
+    <path d="M190 290 L200 340 L210 290 Z" fill="#6366f1"/>
+
+    <!-- Neck -->
+    <rect x="180" y="220" width="40" height="45" rx="10" fill="#f5be9b"/>
+
+    <!-- Head / Face -->
+    <ellipse cx="200" cy="180" rx="60" ry="70" fill="url(#skinGrad)"/>
+
+    <!-- Hair -->
+    <path d="M135 170 C130 110 180 90 230 95 C265 100 270 135 265 170 C255 140 240 125 200 125 C160 125 145 145 135 170 Z" fill="#18181b"/>
+    <path d="M140 140 C170 110 230 115 250 145 C230 130 170 125 140 140 Z" fill="#27272a"/>
+
+    <!-- Glasses Frame -->
+    <rect x="155" y="160" width="38" height="26" rx="6" fill="none" stroke="#0284c7" stroke-width="4.5"/>
+    <rect x="207" y="160" width="38" height="26" rx="6" fill="none" stroke="#0284c7" stroke-width="4.5"/>
+    <line x1="193" y1="172" x2="207" y2="172" stroke="#0284c7" stroke-width="4.5"/>
+    <!-- Lens reflection -->
+    <line x1="160" y1="165" x2="175" y2="180" stroke="#bae6fd" stroke-width="2" stroke-linecap="round"/>
+    <line x1="212" y1="165" x2="227" y2="180" stroke="#bae6fd" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Smile -->
+    <path d="M185 210 Q200 222 215 210" fill="none" stroke="#991b1b" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Tech Icons Floating -->
+    <!-- Code Bracket Left -->
+    <g transform="translate(60, 160)">
+      <circle cx="20" cy="20" r="24" fill="#0f172a" fill-opacity="0.85" stroke="#38bdf8" stroke-width="2"/>
+      <text x="20" y="27" font-family="monospace" font-size="20" font-weight="bold" fill="#38bdf8" text-anchor="middle">&lt;/&gt;</text>
+    </g>
+    <!-- React / Atom Right -->
+    <g transform="translate(300, 160)">
+      <circle cx="20" cy="20" r="24" fill="#0f172a" fill-opacity="0.85" stroke="#61dafb" stroke-width="2"/>
+      <ellipse cx="20" cy="20" rx="14" ry="5" fill="none" stroke="#61dafb" stroke-width="1.8" transform="rotate(30 20 20)"/>
+      <ellipse cx="20" cy="20" rx="14" ry="5" fill="none" stroke="#61dafb" stroke-width="1.8" transform="rotate(-30 20 20)"/>
+      <circle cx="20" cy="20" r="3" fill="#61dafb"/>
+    </g>
+  </g>
+</svg>
