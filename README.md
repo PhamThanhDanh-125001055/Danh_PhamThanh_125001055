@@ -6,10 +6,14 @@
 ## 📌 THÔNG TIN SINH VIÊN
 - **Họ và tên:** Phạm Thành Danh
 - **MSSV:** 125001055
-- **Lớp / Khóa:** Sinh viên Năm 2 - Khoa Công nghệ Thông tin
+- **Lớp / Khóa:** Sinh viên Năm 2 - Khoa Công nghệ Thông tin (ĐH Lạc Hồng)
+- **Số điện thoại:** 0345905101
+- **Email:** phamthanhdanh140407@gmail.com
+- **Facebook:** [facebook.com/danh.thanh.808007](https://facebook.com/danh.thanh.808007)
+- **GitHub Profile:** [github.com/PhamThanhDanh-125001055](https://github.com/PhamThanhDanh-125001055)
 - **Chủ đề website:** Portfolio cá nhân - Fullstack Web Developer
 - **Tên Repository theo quy chuẩn:** `Danh_PhamThanh_125001055`
-- **Live Preview (GitHub Pages):** *(Cập nhật link GitHub Pages của bạn tại đây sau khi kích hoạt)*
+- **Link Live Preview (GitHub Pages):** 👉 **[https://phamthanhdanh-125001055.github.io/Danh_PhamThanh_125001055/](https://phamthanhdanh-125001055.github.io/Danh_PhamThanh_125001055/)**
 
 ---
 
@@ -41,7 +45,8 @@
 ```text
 Danh_PhamThanh_125001055/
 ├── assets/
-│   └── avatar.svg          # Ảnh đại diện vector SVG sắc nét
+│   ├── avatar.png          # Ảnh đại diện cá nhân (đúng chuẩn yêu cầu)
+│   └── avatar.svg          # Vector đồ họa bổ trợ
 ├── index.html              # Trang chính chuẩn Semantic HTML5
 ├── style.css               # Toàn bộ CSS & hệ thống CSS Variables
 ├── script.js               # Logic điều khiển AOS, filter, responsive menu & form

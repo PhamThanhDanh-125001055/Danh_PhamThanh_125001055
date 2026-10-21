@@ -55,6 +55,16 @@
   - Tinh chỉnh thêm trạng thái `:focus-visible` với viền sáng neon tinh tế để đáp ứng chuẩn tiếp cận người dùng (Accessibility - A11y).
   - Tối ưu menu Hamburger trên mobile với hiệu ứng chuyển động mượt mà bằng CSS `clip-path` và thuộc tính `aria-expanded`.
 
+### Lần 4: Cập nhật thông tin thực tế, Avatar cá nhân & Nâng cấp Micro-animations
+- **Prompt đã dùng:**
+  > *"1: Đổi avatar 'ảnh tôi gửi' thành đúng định dạng yêu cầu đề thi và thay vào cho tôi. 2: Cập nhật SĐT: 0345905101. 3: Facebook: facebook.com/danh.thanh.808007. 4: Cập nhật link GitHub Pages 'https://phamthanhdanh-125001055.github.io/Danh_PhamThanh_125001055/' vào phần README. 5: Sửa đúng link GitHub profile: https://github.com/PhamThanhDanh-125001055. 6: Email: phamthanhdanh140407@gmail.com. 7: Thêm hiệu ứng animation mượt mà cho web trông thuận mắt hơn."*
+- **Kết quả AI tạo ra:**
+  - AI đã tích hợp ảnh chân dung thật `avatar.png` với khung viền gradient 3 màu phát sáng đồng điệu với tone màu ấm của ảnh.
+  - Cập nhật đồng bộ các thông tin liên hệ chính xác (Email, SĐT, Facebook, GitHub Profile, GitHub Pages preview) trên toàn bộ `index.html`, `README.md` và `script.js`.
+  - Bổ sung hiệu ứng quét ánh sáng lấp lánh (Shimmer / Light Beam) khi hover lên nút CTA, hiệu ứng hào quang nhịp thở (Pulse Aura) quanh Avatar, và animation nổi bồng bềnh mượt mà cho các Floating Badges.
+- **Nhận xét & Tinh chỉnh của SV:**
+  - Giao diện có chiều sâu thị giác (Visual Depth) hơn hẳn, thể hiện đúng phong cách một Fullstack Developer chuyên nghiệp, tự tin và hiện đại.
+
 ---
 
 ## 3. Đánh giá cá nhân về quá trình Vibe Coding
